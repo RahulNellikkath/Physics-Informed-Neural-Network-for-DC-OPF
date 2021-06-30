@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from PINNs.KKT import find_kkt_Lg
+from PINNs.Check_KKT import Check_kkt
 
 def create_data(simulation_parameters):
 
@@ -11,6 +12,7 @@ def create_data(simulation_parameters):
     n_data_points = simulation_parameters['data_creation']['n_data_points']
     n_total = n_data_points + n_collocation
     
+    Check_kkt(n_buses)
     #P_d or the Input data points
     L_Val=pd.read_csv('Data_File/'+str(n_buses)+'/NN_input.csv').to_numpy()[0:n_data_points+n_collocation][:] 
 
