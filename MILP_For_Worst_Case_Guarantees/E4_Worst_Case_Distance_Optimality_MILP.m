@@ -8,7 +8,7 @@ clear all;
 addpath(genpath('C:\gurobi902\win64'));
 addpath(genpath('C:\Users\Andreas\Gurobi'));
 
-cases =  {'case39_DCOPF_39_bus'};
+cases =  {'case39_DCOPF'};
 
 nr_cases = size(cases,1);
 
