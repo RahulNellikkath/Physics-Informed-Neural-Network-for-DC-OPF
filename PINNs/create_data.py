@@ -78,6 +78,7 @@ def create_data(simulation_parameters):
 
     y_training = [y_gen, y_l_Lg , y_a_u_Lg , y_a_d_Lg , y_b_u_Lg, y_b_d_Lg, np.zeros((n_total, 1))]
 
+    # Saving files to the MILP_For_Worst_Case_Guarantees for worst case analysis
     np.savetxt('MILP_For_Worst_Case_Guarantees/Trained_Neural_Networks/case'+str(n_buses)+'_DCOPF/1/features_train.csv',L_Val[0:n_data_points][:], fmt='%s', delimiter=',')
     np.savetxt('MILP_For_Worst_Case_Guarantees/Trained_Neural_Networks/case'+str(n_buses)+'_DCOPF/1/labels_train.csv',np.array(results), fmt='%s', delimiter=',')
     np.savetxt('MILP_For_Worst_Case_Guarantees/Trained_Neural_Networks/case'+str(n_buses)+'_DCOPF/1/NN_input.csv',NN_input, fmt='%s', delimiter=',')
