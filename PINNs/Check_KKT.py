@@ -90,8 +90,6 @@ def Check_kkt(n_buses):
             New_Input.append(P_Loads[l].reshape(1,n_lbus)[0])
             New_Ouput.append(P_Gens[l].reshape(1,n_gbus)[0])
             rem=rem+1
-        else :
-            print(l)
     
     np.savetxt('Data_File/'+str(n_buses)+'/NN_input.csv',New_Input, fmt='%s', delimiter=',')
     np.savetxt('Data_File/'+str(n_buses)+'/NN_output.csv',New_Ouput, fmt='%s', delimiter=',')
