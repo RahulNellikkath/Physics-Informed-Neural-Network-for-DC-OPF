@@ -17,7 +17,8 @@ This code requires the following:
 The data for the test cases are reproduced from the IEEE PES Power Grid Library - Optimal Power Flow - v19.05 (https://github.com/power-grid-lib/pglib-opf)
 
 To run the code to re-create the simulation results please follow the steps below:
-	1. Run PINN_DC_OPF_Main.py in python: 
+	0.Run "A1_Create_Test_Cases" and "A2_Create_Data_Sets" to generate the data sets
+	1.Run PINN_DC_OPF_Main.py in python: 
 		1.1 It contains the python code used for the PINN algorithms
 		1.2 Teset cases can be 39 bus system, 118 bus system or 162. They can be changed by changing the "n_buses"
 		1.3 All the fuctions used by the algorith is given in Folder PINNs
