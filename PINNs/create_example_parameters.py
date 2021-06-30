@@ -194,7 +194,7 @@ def create_example_parameters(n_buses: int):
     # -----------------------------------------------------------------------------------------------
     n_total = n_data_points + n_collocation_points
 
-    epoch_schedule = [500]
+    epoch_schedule = [5000]
 
     batching_schedule = [int(np.ceil(n_total / 2))]
                          
