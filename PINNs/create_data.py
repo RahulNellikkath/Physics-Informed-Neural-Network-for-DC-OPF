@@ -12,6 +12,7 @@ def create_data(simulation_parameters):
     n_data_points = simulation_parameters['data_creation']['n_data_points']
     n_total = n_data_points + n_collocation
     
+    # Checking if KKT equations to find dual variables is solvable and removing datapoints for which KKT is not solvable
     Check_kkt(n_buses)
     #P_d or the Input data points
     NN_input=pd.read_csv('Data_File/'+str(n_buses)+'/NN_input.csv').to_numpy()
