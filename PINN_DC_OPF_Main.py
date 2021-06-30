@@ -11,7 +11,7 @@ from PINNs.create_test_data import create_test_data
 
 def PINN_DC_OPF():
     
-    n_buses=118
+    n_buses=39
     
     W_Lm=0.05
     W_PINN=0.05
