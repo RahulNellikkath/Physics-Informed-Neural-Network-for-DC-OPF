@@ -10,7 +10,6 @@ clear all;
 
 % add Gurobi to path
 addpath(genpath('C:\gurobi902\win64'));
-addpath(genpath('C:\Users\Andreas\Gurobi'));
 
 cases =  {'case39_DCOPF'};
 
