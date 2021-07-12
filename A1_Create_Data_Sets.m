@@ -15,7 +15,7 @@ close all;
     ANGMIN, ANGMAX, MU_ANGMIN, MU_ANGMAX] = idx_brch;
 [PW_LINEAR, POLYNOMIAL, MODEL, STARTUP, SHUTDOWN, NCOST, COST] = idx_cost;
 
-cases =  {'case39_DCOPF_39_bus';'case118_DCOPF';'case162_DCOPF'};
+cases =  {'case39_DCOPF';'case118_DCOPF';'case162_DCOPF'};
 
 nr_cases = size(cases,1);
 Nr_samples = 10^5;
