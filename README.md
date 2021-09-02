@@ -1,5 +1,7 @@
 # Physics-Informed-Neural-Network-for-DC-OPF
-This repository contains the code for Physics-Informed Neural Network for DC Optimal Power Flow applications and the worst case guarantees
+This repository contains supplementary data and code to reproduce the simulation results in R. Nellikkath and S. Chatzivasileiadis "Physics-Informed Neural Networks for Minimizing Worst-Case Violations in DC Optimal Power Flow".
+
+When publishing results based on this data/code, please cite: R. Nellikkath and S. Chatzivasileiadis "Physics-Informed Neural Networks for Minimizing Worst-Case Violations in DC Optimal Power Flow", 2021. Available online: https://arxiv.org/abs/2107.00465
 
 Author: Rahul Nellikkath
 E-mail: rnelli@elektro.dtu.dk
